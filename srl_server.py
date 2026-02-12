@@ -50,7 +50,7 @@ def predict():
         if not sentence or not isinstance(sentence, str):
             return jsonify({"error": "Sentence must be non-empty string"}), 400
         
-        result = predict(sentence = sentence)
+        result = predictor.predict(sentence = sentence)
     
         return jsonify(result)
 
@@ -74,14 +74,14 @@ def batch_predict():
         if not sentences or not isinstance(sentence, list):
             return jsonify({"error": "Sentence must be non-empty list"}), 400
         
-        result = predict(sentence = sentence)
+        result = predictor.predict_json({"sentence": sentence})
     
         results = []
         for sentence in sentences:
             if not isinstance(sentence, str):
                return jsonify({"error": "Sentence must be string"}), 400
             else:
-                result = predictor.predict(sentence = sentence)
+                result = predictor.predict_json({"sentence": sentence})
                 results.append(result)
         
         return jsonify({"results": results})
