@@ -18,3 +18,7 @@ Other option is using allennlp's docker image.
 pip install -r requirements.txt
 python srl_server.py
 ```
+- endpoints:
+"/health", "/predict", "/batch_predict"
+
+-Port i used is 5000 
