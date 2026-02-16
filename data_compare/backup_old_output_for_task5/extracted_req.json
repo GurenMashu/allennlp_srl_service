@@ -1,0 +1,74 @@
+{
+  "REQ_00001": {
+    "req_id": "REQ_00001",
+    "source": "The ABS_ECU is required to detect wheel slip and shall activate braking within ten milliseconds when VehicleSpeed exceeds 30 kilometers per hour.",
+    "entity_map": {"ENTITY_3a75013a": "ABS_ECU", "ENTITY_51ebb1ae": "VehicleSpeed"},
+    "text": "The ENTITY_3a75013a shall detect wheel slip and shall activate braking within 10 ms when ENTITY_51ebb1ae exceeds 30 km/h .",
+    "actors": [
+      {
+        "text": "ENTITY_51ebb1ae",
+        "dependency_role": "NER:ORG",
+        "token_index": 13
+      },
+      {
+        "text": "ENTITY_3a75013a",
+        "dependency_role": "domain_agent",
+        "token_index": 1
+      },
+      {
+        "text": "the driver",
+        "dependency_role": "nsubj",
+        "token_index": 13
+      }
+    ],
+    "actions": [
+      {
+        "verb": "detect",
+        "lemma": "detect",
+        "modality": "shall",
+        "token_index": 3
+      },
+      {
+        "verb": "activate",
+        "lemma": "activate",
+        "modality": "shall",
+        "token_index": 8
+      },
+      {
+        "verb": "breaking",
+        "lemma": "break",
+        "modality": "shall",
+        "token_index": 9
+      },
+      {
+        "verb": "exceeds",
+        "lemma": "exceed",
+        "modality": "shall",
+        "token_index": 14
+      }
+    ],
+    "objects": [
+      {
+        "text": "wheel slip",
+        "dependency_role": "dobj",
+        "token_index": 5
+      }
+    ],
+    "conditons": [
+      {
+        "text": "within 10 ms",
+        "marker": null,
+        "head_verb": "brake",
+        "token_index": 10,
+        "values": null
+      },
+      {
+        "text": "when ENTITY_51ebb1ae exceeds 30 km/h",
+        "marker": "when",
+        "head_verb": "activate",
+        "token_index": 14,
+        "values": null
+      }
+    ]
+  }
+}

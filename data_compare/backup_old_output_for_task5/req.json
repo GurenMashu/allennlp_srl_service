@@ -1,0 +1,8 @@
+{
+  "REQ_00001": {
+    "req_id": "REQ_00001",
+    "source": "The ABS_ECU is required to detect wheel slip and shall activate braking within ten milliseconds when VehicleSpeed exceeds 30 kilometers per hour.",
+    "text": "The ENTITY_3a75013a shall detect wheel slip and shall activate braking within 10 ms when ENTITY_51ebb1ae exceeds 30 km/h .",
+    "entity_map": {"ENTITY_3a75013a": "ABS_ECU", "ENTITY_51ebb1ae": "VehicleSpeed"}
+  }
+}
