@@ -98,6 +98,6 @@ if __name__ == "__main__":
     logger.info(f"Endpoints: ")
     logger.info(f"  - Health: http://{HOST}:{PORT}/health")
     logger.info(f"  - Predict: http://{HOST}:{PORT}/predict")
-    logger.info(f"  - Batch Predict: https://{HOST}:{PORT}/batch_predict")
+    logger.info(f"  - Batch Predict: http://{HOST}:{PORT}/batch_predict")
 
     serve(app, host = HOST, port = PORT, threads = 4)
