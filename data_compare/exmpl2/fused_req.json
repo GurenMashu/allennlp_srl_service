@@ -2,91 +2,107 @@
   "REQ_00001": {
     "req_id": "REQ_00001",
     "source": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface.",
-    "entity_map": {},
     "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
-    "actors": [
+    "entity_map": {},
+    "frames": [
       {
-        "text": "The vehicle",
-        "dependency_role": "SRL_ARG0",
-        "token_index": 0
+        "action": {
+          "verb": "provides",
+          "lemma": "provide",
+          "modality": null,
+          "token_index": 2
+        },
+        "actors": [
+          {
+            "text": "The vehicle",
+            "dependency_role": "SRL_ARG0",
+            "token_index": 0
+          }
+        ],
+        "objects": [
+          {
+            "text": "an Adaptive Cruise Control ( ACC ) feature that the driver can turn on or off using a dedicated control in the human – machine interface",
+            "dependency_role": "SRL_ARG1",
+            "token_index": 3
+          }
+        ],
+        "conditions": []
       },
       {
-        "text": "the driver",
-        "dependency_role": "SRL_ARG0",
-        "token_index": 12
-      }
-    ],
-    "actions": [
-      {
-        "verb": "provides",
-        "lemma": "provide",
-        "modality": null,
-        "token_index": 2
+        "action": {
+          "verb": "turn",
+          "lemma": "turn",
+          "modality": null,
+          "token_index": 15
+        },
+        "actors": [
+          {
+            "text": "the driver",
+            "dependency_role": "SRL_ARG0",
+            "token_index": 12
+          }
+        ],
+        "objects": [
+          {
+            "text": "an Adaptive Cruise Control ( ACC ) feature",
+            "dependency_role": "SRL_ARG1",
+            "token_index": 3
+          }
+        ],
+        "conditions": [
+          {
+            "text": "can",
+            "marker": "ARGM-MOD",
+            "head_verb": "turn",
+            "token_index": 14,
+            "values": []
+          },
+          {
+            "text": "on or off",
+            "marker": "ARGM-DIR",
+            "head_verb": "turn",
+            "token_index": 16,
+            "values": []
+          },
+          {
+            "text": "using a dedicated control in the human – machine interface",
+            "marker": "ARGM-MNR",
+            "head_verb": "turn",
+            "token_index": 19,
+            "values": []
+          }
+        ]
       },
       {
-        "verb": "feature",
-        "lemma": "feature",
-        "modality": null,
-        "token_index": 10
-      },
-      {
-        "verb": "turn",
-        "lemma": "turn",
-        "modality": null,
-        "token_index": 15
-      },
-      {
-        "verb": "using",
-        "lemma": "use",
-        "modality": null,
-        "token_index": 19
-      }
-    ],
-    "objects": [
-      {
-        "text": "an Adaptive Cruise Control ( ACC ) feature that the driver can turn on or off using a dedicated control in the human – machine interface",
-        "dependency_role": "SRL_ARG1",
-        "token_index": 3
-      },
-      {
-        "text": "an Adaptive Cruise Control ( ACC ) feature",
-        "dependency_role": "SRL_ARG1",
-        "token_index": 3
-      },
-      {
-        "text": "a dedicated control",
-        "dependency_role": "SRL_ARG1",
-        "token_index": 20
-      }
-    ],
-    "conditons": [
-      {
-        "text": "can",
-        "marker": "ARGM-MOD",
-        "head_verb": "turn",
-        "token_index": 14,
-        "values": []
-      },
-      {
-        "text": "on or off",
-        "marker": "ARGM-DIR",
-        "head_verb": "turn",
-        "token_index": 16,
-        "values": []
-      },
-      {
-        "text": "using a dedicated control in the human – machine interface",
-        "marker": "ARGM-MNR",
-        "head_verb": "turn",
-        "token_index": 19,
-        "values": []
-      },
-      {
-        "text": "in the human – machine interface",
-        "marker": "ARGM-LOC",
-        "head_verb": "use",
-        "token_index": 23,
-        "values": []
+        "action": {
+          "verb": "using",
+          "lemma": "use",
+          "modality": null,
+          "token_index": 19
+        },
+        "actors": [
+          {
+            "text": "the driver",
+            "dependency_role": "SRL_ARG0",
+            "token_index": 12
+          }
+        ],
+        "objects": [
+          {
+            "text": "a dedicated control",
+            "dependency_role": "SRL_ARG1",
+            "token_index": 20
+          }
+        ],
+        "conditions": [
+          {
+            "text": "in the human – machine interface",
+            "marker": "ARGM-LOC",
+            "head_verb": "use",
+            "token_index": 23,
+            "values": []
+          }
+        ]
       }
     ]
   }

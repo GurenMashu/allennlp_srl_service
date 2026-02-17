@@ -9,21 +9,20 @@
         "modality": null,
         "token_index": 2
       },
-      "actors": [],
-      "objects": [],
-      "conditions": []
-    },
-    {
-      "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
-      "entity_map": {},
-      "action": {
-        "verb": "feature",
-        "lemma": "feature",
-        "modality": null,
-        "token_index": 10
-      },
-      "actors": [],
-      "objects": [],
+      "actors": [
+        {
+          "text": "The vehicle",
+          "dependency_role": "SRL_ARG0",
+          "token_index": 0
+        }
+      ],
+      "objects": [
+        {
+          "text": "an Adaptive Cruise Control ( ACC ) feature that the driver can turn on or off using a dedicated control in the human – machine interface",
+          "dependency_role": "SRL_ARG1",
+          "token_index": 3
+        }
+      ],
       "conditions": []
     },
     {
@@ -35,8 +34,20 @@
         "modality": null,
         "token_index": 15
       },
-      "actors": [],
-      "objects": [],
+      "actors": [
+        {
+          "text": "the driver",
+          "dependency_role": "SRL_ARG0",
+          "token_index": 12
+        }
+      ],
+      "objects": [
+        {
+          "text": "an Adaptive Cruise Control ( ACC ) feature",
+          "dependency_role": "SRL_ARG1",
+          "token_index": 3
+        }
+      ],
       "conditions": [
         {
           "text": "can",
@@ -70,8 +81,20 @@
         "modality": null,
         "token_index": 19
       },
-      "actors": [],
-      "objects": [],
+      "actors": [
+        {
+          "text": "the driver",
+          "dependency_role": "SRL_ARG0",
+          "token_index": 12
+        }
+      ],
+      "objects": [
+        {
+          "text": "a dedicated control",
+          "dependency_role": "SRL_ARG1",
+          "token_index": 20
+        }
+      ],
       "conditions": [
         {
           "text": "in the human – machine interface",
