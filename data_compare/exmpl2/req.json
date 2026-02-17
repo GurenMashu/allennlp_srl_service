@@ -1,0 +1,8 @@
+{
+  "REQ_00001": {
+    "req_id": "REQ_00001",
+    "source": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface.",
+    "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
+    "entity_map": {}
+  }
+}

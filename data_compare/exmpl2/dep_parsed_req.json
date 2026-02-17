@@ -1,0 +1,59 @@
+{
+  "REQ_00001": {
+    "req_id": "REQ_00001",
+    "source": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface.",
+    "entity_map": {},
+    "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
+    "actors": [
+      {
+        "text": "Adaptive Cruise Control (ACC",
+        "dependency_role": "NER:ORG",
+        "token_index": 6
+      },
+      {
+        "text": "The vehicle",
+        "dependency_role": "nsubj",
+        "token_index": 1
+      },
+      {
+        "text": "the driver",
+        "dependency_role": "nsubj",
+        "token_index": 13
+      }
+    ],
+    "actions": [
+      {
+        "verb": "provides",
+        "lemma": "provide",
+        "modality": null,
+        "token_index": 2
+      },
+      {
+        "verb": "feature",
+        "lemma": "feature",
+        "modality": null,
+        "token_index": 10
+      },
+      {
+        "verb": "turn",
+        "lemma": "turn",
+        "modality": null,
+        "token_index": 15
+      },
+      {
+        "verb": "using",
+        "lemma": "use",
+        "modality": null,
+        "token_index": 19
+      }
+    ],
+    "objects": [
+      {
+        "text": "a dedicated control",
+        "dependency_role": "dobj",
+        "token_index": 22
+      }
+    ],
+    "conditons": []
+  }
+}

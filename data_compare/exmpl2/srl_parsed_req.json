@@ -1,0 +1,153 @@
+{
+  "REQ_00001": {
+    "req_id": "REQ_00001",
+    "frames": [
+      {
+        "verb": "provides",
+        "verb_index": 2,
+        "roles": [
+          {
+            "role": "ARG0",
+            "text": "The vehicle",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "role": "V",
+            "text": "provides",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "role": "ARG1",
+            "text": "an Adaptive Cruise Control ( ACC ) feature that the driver can turn on or off using a dedicated control in the human – machine interface",
+            "start": 3,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "verb": "can",
+        "verb_index": 14,
+        "roles": [
+          {
+            "role": "V",
+            "text": "can",
+            "start": 14,
+            "end": 15
+          }
+        ]
+      },
+      {
+        "verb": "turn",
+        "verb_index": 15,
+        "roles": [
+          {
+            "role": "ARG1",
+            "text": "an Adaptive Cruise Control ( ACC ) feature",
+            "start": 3,
+            "end": 11
+          },
+          {
+            "role": "R-ARG1",
+            "text": "that",
+            "start": 11,
+            "end": 12
+          },
+          {
+            "role": "ARG0",
+            "text": "the driver",
+            "start": 12,
+            "end": 14
+          },
+          {
+            "role": "ARGM-MOD",
+            "text": "can",
+            "start": 14,
+            "end": 15
+          },
+          {
+            "role": "V",
+            "text": "turn",
+            "start": 15,
+            "end": 16
+          },
+          {
+            "role": "ARGM-DIR",
+            "text": "on or off",
+            "start": 16,
+            "end": 19
+          },
+          {
+            "role": "ARGM-MNR",
+            "text": "using a dedicated control in the human – machine interface",
+            "start": 19,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "verb": "using",
+        "verb_index": 19,
+        "roles": [
+          {
+            "role": "ARG0",
+            "text": "the driver",
+            "start": 12,
+            "end": 14
+          },
+          {
+            "role": "V",
+            "text": "using",
+            "start": 19,
+            "end": 20
+          },
+          {
+            "role": "ARG1",
+            "text": "a dedicated control",
+            "start": 20,
+            "end": 23
+          },
+          {
+            "role": "ARGM-LOC",
+            "text": "in the human – machine interface",
+            "start": 23,
+            "end": 29
+          }
+        ]
+      }
+    ],
+    "words": [
+      "The",
+      "vehicle",
+      "provides",
+      "an",
+      "Adaptive",
+      "Cruise",
+      "Control",
+      "(",
+      "ACC",
+      ")",
+      "feature",
+      "that",
+      "the",
+      "driver",
+      "can",
+      "turn",
+      "on",
+      "or",
+      "off",
+      "using",
+      "a",
+      "dedicated",
+      "control",
+      "in",
+      "the",
+      "human",
+      "–",
+      "machine",
+      "interface",
+      "."
+    ]
+  }
+}

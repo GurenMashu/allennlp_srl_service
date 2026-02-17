@@ -1,0 +1,86 @@
+{
+  "REQ_00001": [
+    {
+      "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
+      "entity_map": {},
+      "action": {
+        "verb": "provides",
+        "lemma": "provide",
+        "modality": null,
+        "token_index": 2
+      },
+      "actors": [],
+      "objects": [],
+      "conditions": []
+    },
+    {
+      "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
+      "entity_map": {},
+      "action": {
+        "verb": "feature",
+        "lemma": "feature",
+        "modality": null,
+        "token_index": 10
+      },
+      "actors": [],
+      "objects": [],
+      "conditions": []
+    },
+    {
+      "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
+      "entity_map": {},
+      "action": {
+        "verb": "turn",
+        "lemma": "turn",
+        "modality": null,
+        "token_index": 15
+      },
+      "actors": [],
+      "objects": [],
+      "conditions": [
+        {
+          "text": "can",
+          "marker": "ARGM-MOD",
+          "head_verb": "turn",
+          "token_index": 14,
+          "values": []
+        },
+        {
+          "text": "on or off",
+          "marker": "ARGM-DIR",
+          "head_verb": "turn",
+          "token_index": 16,
+          "values": []
+        },
+        {
+          "text": "using a dedicated control in the human – machine interface",
+          "marker": "ARGM-MNR",
+          "head_verb": "turn",
+          "token_index": 19,
+          "values": []
+        }
+      ]
+    },
+    {
+      "text": "The vehicle provides an Adaptive Cruise Control (ACC) feature that the driver can turn on or off using a dedicated control in the human–machine interface .",
+      "entity_map": {},
+      "action": {
+        "verb": "using",
+        "lemma": "use",
+        "modality": null,
+        "token_index": 19
+      },
+      "actors": [],
+      "objects": [],
+      "conditions": [
+        {
+          "text": "in the human – machine interface",
+          "marker": "ARGM-LOC",
+          "head_verb": "use",
+          "token_index": 23,
+          "values": []
+        }
+      ]
+    }
+  ]
+}
