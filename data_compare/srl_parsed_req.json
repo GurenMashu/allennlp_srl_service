@@ -1,0 +1,156 @@
+{
+  "REQ_00001": {
+    "req_id": "REQ_00001",
+    "frames": [
+      {
+        "verb": "shall",
+        "verb_index": 2,
+        "roles": [
+          {
+            "role": "V",
+            "text": "shall",
+            "start": 2,
+            "end": 3
+          }
+        ]
+      },
+      {
+        "verb": "detect",
+        "verb_index": 3,
+        "roles": [
+          {
+            "role": "ARG0",
+            "text": "The ENTITY_ff829d6c",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "role": "ARGM-MOD",
+            "text": "shall",
+            "start": 2,
+            "end": 3
+          },
+          {
+            "role": "V",
+            "text": "detect",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "role": "ARG1",
+            "text": "wheel slip",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      },
+      {
+        "verb": "shall",
+        "verb_index": 7,
+        "roles": [
+          {
+            "role": "V",
+            "text": "shall",
+            "start": 7,
+            "end": 8
+          }
+        ]
+      },
+      {
+        "verb": "activate",
+        "verb_index": 8,
+        "roles": [
+          {
+            "role": "ARG0",
+            "text": "The ENTITY_ff829d6c",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "role": "ARGM-MOD",
+            "text": "shall",
+            "start": 7,
+            "end": 8
+          },
+          {
+            "role": "V",
+            "text": "activate",
+            "start": 8,
+            "end": 9
+          },
+          {
+            "role": "ARG1",
+            "text": "braking",
+            "start": 9,
+            "end": 10
+          },
+          {
+            "role": "ARGM-TMP",
+            "text": "within 10 ms",
+            "start": 10,
+            "end": 11
+          },
+          {
+            "role": "ARGM-TMP",
+            "text": "when ENTITY_c1ee123e exceeds 30 km / h",
+            "start": -1,
+            "end": -1
+          }
+        ]
+      },
+      {
+        "verb": "exceeds",
+        "verb_index": -1,
+        "roles": [
+          {
+            "role": "ARGM-TMP",
+            "text": "when",
+            "start": -1,
+            "end": -1
+          },
+          {
+            "role": "ARG0",
+            "text": "ENTITY_c1ee123e",
+            "start": -1,
+            "end": -1
+          },
+          {
+            "role": "V",
+            "text": "exceeds",
+            "start": -1,
+            "end": -1
+          },
+          {
+            "role": "ARG1",
+            "text": "30 km / h",
+            "start": -1,
+            "end": -1
+          }
+        ]
+      }
+    ],
+    "words": [
+      "The",
+      "ENTITY_ff829d6c",
+      "shall",
+      "detect",
+      "wheel",
+      "slip",
+      "and",
+      "shall",
+      "activate",
+      "braking",
+      "within",
+      "10",
+      "ms",
+      "when",
+      "ENTITY_c1ee123e",
+      "exceeds",
+      "30",
+      "km",
+      "/",
+      "h",
+      "."
+    ]
+  }
+}

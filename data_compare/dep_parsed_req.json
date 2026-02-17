@@ -2,22 +2,20 @@
   "REQ_00001": {
     "req_id": "REQ_00001",
     "source": "The ABS_ECU is required to detect wheel slip and shall activate braking within ten milliseconds when VehicleSpeed exceeds 30 kilometers per hour.",
-    "entity_map": {"ENTITY_3a75013a": "ABS_ECU", "ENTITY_51ebb1ae": "VehicleSpeed"},
-    "text": "The ENTITY_3a75013a shall detect wheel slip and shall activate braking within 10 ms when ENTITY_51ebb1ae exceeds 30 km/h .",
+    "entity_map": {
+      "ENTITY_ff829d6c": "ABS_ECU",
+      "ENTITY_c1ee123e": "VehicleSpeed"
+    },
+    "text": "The ENTITY_ff829d6c shall detect wheel slip and shall activate braking within 10 ms when ENTITY_c1ee123e exceeds 30 km/h .",
     "actors": [
       {
-        "text": "ENTITY_51ebb1ae",
-        "dependency_role": "NER:ORG",
-        "token_index": 13
-      },
-      {
-        "text": "ENTITY_3a75013a",
+        "text": "ENTITY_ff829d6c",
         "dependency_role": "domain_agent",
         "token_index": 1
       },
       {
-        "text": "the driver",
-        "dependency_role": "nsubj",
+        "text": "ENTITY_c1ee123e",
+        "dependency_role": "domain_agent",
         "token_index": 13
       }
     ],
@@ -35,15 +33,15 @@
         "token_index": 8
       },
       {
-        "verb": "breaking",
-        "lemma": "break",
-        "modality": "shall",
+        "verb": "braking",
+        "lemma": "brake",
+        "modality": null,
         "token_index": 9
       },
       {
         "verb": "exceeds",
         "lemma": "exceed",
-        "modality": "shall",
+        "modality": null,
         "token_index": 14
       }
     ],
@@ -60,14 +58,14 @@
         "marker": null,
         "head_verb": "brake",
         "token_index": 10,
-        "values": null
+        "values": []
       },
       {
-        "text": "when ENTITY_51ebb1ae exceeds 30 km/h",
+        "text": "when ENTITY_c1ee123e exceeds 30 km/h",
         "marker": "when",
         "head_verb": "activate",
         "token_index": 14,
-        "values": null
+        "values": []
       }
     ]
   }
