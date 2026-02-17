@@ -66,15 +66,13 @@ def batch_predict():
     try:
         data = request.get_json()
 
-        if not data or "sentence" not in data:
-            return jsonify({"error": "Missing 'sentence' field"}), 400
+        if not data or "sentences" not in data:
+            return jsonify({"error": "Missing 'sentences' field"}), 400
         
-        sentences = data["sentence"]
+        sentences = data["sentences"]
 
-        if not sentences or not isinstance(sentence, list):
+        if not sentences or not isinstance(sentences, list):
             return jsonify({"error": "Sentence must be non-empty list"}), 400
-        
-        result = predictor.predict_json({"sentence": sentence})
     
         results = []
         for sentence in sentences:
