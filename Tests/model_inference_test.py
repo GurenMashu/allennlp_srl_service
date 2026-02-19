@@ -15,10 +15,10 @@ def test() -> None:
     print(f"\nAnalyzing: '{sentence}'")
     result = predictor.predict(sentence=sentence)
     
-    # for verb in result["verbs"]:
-    #     print(f"\nVerb: {verb['verb']}")
-    #     print(f"Description: {verb['description']}")
-    print(result)
+    for verb in result["verbs"]:
+        print(f"\nVerb: {verb['verb']}")
+        print(f"Description: {verb['description']}")
+    #print(result)
 
 if __name__ == "__main__":
     test()
